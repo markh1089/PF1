@@ -7,14 +7,14 @@ import Home from "./components/Home/Home";
 
 const App = () => {
   return (
-    <>
+    <div >
       <NavBar />
       <Home />
       <About />
       <Skills />
       <Projects />
       <Contact />
-    </>
+    </div>
   );
 };
 

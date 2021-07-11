@@ -1,0 +1,21 @@
+.Contact{
+    background-image: url('../Images/Rainbow-Vortex.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: center;
+    height: 300px;
+    display: flex;
+}
+.Contact h1 {
+ margin-left: 50px;
+}
+
+.Contact .ContactIcons {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.Contact .ContactIcons svg path {
+    cursor: pointer;
+}

@@ -45,7 +45,7 @@ const totalSkills = [frontendSkills, backendSkills, otherSkills];
 
 const Skills = () => {
   return (
-    <div className={classes.Skills}>
+    <div className={classes.Skills} id='skills'>
       <PageHeader title="Skills" />
       <img className={classes.image} src={CodeDesk} alt='' />
       <p>
