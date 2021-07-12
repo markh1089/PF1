@@ -10,7 +10,7 @@ body {
 
 html {
   scroll-behavior: smooth;
-  font-size: 14px;
+  font-size: 18px;
 }
 
 h1 {
@@ -21,15 +21,22 @@ h1 {
 
 h2 {
   font-weight: 700;
-  font-size: 1.4rem;
   color: white;
   font-size: calc(1rem+1.5vw);
 }
 
 p {
   font-weight: 500px;
-  font-size: 1.3rem;
   color: white;
+  font-size: calc(0.75rem+1vw);
+}
+
+a {
+  font-weight: 900;
+  font-size: calc(0.6rem + 1vw);
+}
+li {
+  font-size: calc(0.6rem + 1vw);
 }
 
 code {

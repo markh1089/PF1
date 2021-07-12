@@ -38,3 +38,17 @@
   
     
 }
+@media only screen and (max-width: 500px) {
+    .Skills  {
+        flex-direction: column !important;
+        align-items: center;
+    }
+    .Skills p{
+        width: 80%;
+        padding-left: 10%;
+
+    }
+    
+
+
+}

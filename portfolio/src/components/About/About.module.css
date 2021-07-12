@@ -4,8 +4,7 @@
 }
 
 .AboutMe .Container {
-    display: flex;
-    
+    display: flex;    
 }
 
 .AboutMe .Container .Text {
@@ -29,5 +28,19 @@
     width: 90%;
     max-width: 500px;
     border-radius: 10%;
+}
+
+@media only screen and (max-width: 500px) {
+    .AboutMe .Container {
+        flex-direction: column !important;
+        align-items: center;
+    }
+
+    .AboutMe .Container .Text {
+        width: 80%;
+    }
+    .AboutMe .Container .Photo {
+        width: 70%;
+    }
 
 }

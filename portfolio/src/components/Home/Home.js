@@ -3,6 +3,8 @@ import code from './../Images/code.svg'
 import codeWorld from './../Images/codeWorld.svg'
 import WaveLine from "./WaveLine";
 import Typist from 'react-typist';
+import { motion } from "framer-motion";
+
 
 
 const Home = () => {
@@ -30,8 +32,14 @@ const Home = () => {
         </Typist>
       </div>
       <img className={classes.Code} src={code} alt='code ' />
+ 
       <img className={classes.CodeWorld} src={codeWorld} alt='code World' />
+     
     </div>
+
+// initial={{ '--rotate': '0deg' } as any}
+// animate={{ '--rotate': '360deg' } as any}
+// transition={{ duration: 2, repeat: Infinity }}
 
   );
 };

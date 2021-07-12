@@ -35,7 +35,7 @@ const otherSkills = (
     <li>Git</li>
     <li>Json</li>
     <li>MongoDb</li>
-    <li>Agile Methodologies</li>
+    <li>Agile</li>
     <li>TDD</li>
   </ul>
 );
