@@ -1,6 +1,6 @@
 .AboutMe {
     background-color: black;
-    padding-bottom: 5%;;
+    padding-bottom: 5%;
 }
 
 .AboutMe .Container {
@@ -15,17 +15,19 @@
 
 .AboutMe .Container .Text h2 {
     font-weight: 900;
-    font-size: 45px;
+    font-size: 2.8rem;
 
 }
 .AboutMe .Container .Photo {
     display: flex;
     width: 50%;
     justify-content: center;
+    align-items: center;
 }
 
 .AboutMe .Container .Photo .Me {
-    height: 500px;
+    width: 90%;
+    max-width: 500px;
     border-radius: 10%;
 
 }
