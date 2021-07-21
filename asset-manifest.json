@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/PF1/static/css/main.db776146.chunk.css",
+    "main.js": "/PF1/static/js/main.175ebb21.chunk.js",
+    "main.js.map": "/PF1/static/js/main.175ebb21.chunk.js.map",
+    "runtime-main.js": "/PF1/static/js/runtime-main.9cb9e296.js",
+    "runtime-main.js.map": "/PF1/static/js/runtime-main.9cb9e296.js.map",
+    "static/js/2.72a730de.chunk.js": "/PF1/static/js/2.72a730de.chunk.js",
+    "static/js/2.72a730de.chunk.js.map": "/PF1/static/js/2.72a730de.chunk.js.map",
+    "index.html": "/PF1/index.html",
+    "static/css/main.db776146.chunk.css.map": "/PF1/static/css/main.db776146.chunk.css.map",
+    "static/js/2.72a730de.chunk.js.LICENSE.txt": "/PF1/static/js/2.72a730de.chunk.js.LICENSE.txt",
+    "static/media/CV.e68a9ec9.pdf": "/PF1/static/media/CV.e68a9ec9.pdf",
+    "static/media/Code-Desk.93881364.svg": "/PF1/static/media/Code-Desk.93881364.svg",
+    "static/media/GroupProj.551f3ef6.png": "/PF1/static/media/GroupProj.551f3ef6.png",
+    "static/media/Me.7efe1dc8.jpg": "/PF1/static/media/Me.7efe1dc8.jpg",
+    "static/media/Contact.module.css": "/PF1/static/media/Rainbow-Vortex.c2765207.svg",
+    "static/media/calculator.03af5cae.png": "/PF1/static/media/calculator.03af5cae.png",
+    "static/media/ceaserCipher.fdb74bdb.png": "/PF1/static/media/ceaserCipher.fdb74bdb.png",
+    "static/media/code.c05a9fe1.svg": "/PF1/static/media/code.c05a9fe1.svg",
+    "static/media/codeWorld.fb9b905a.svg": "/PF1/static/media/codeWorld.fb9b905a.svg",
+    "static/media/quiz.8375c888.png": "/PF1/static/media/quiz.8375c888.png",
+    "static/media/weather.4391f2e4.png": "/PF1/static/media/weather.4391f2e4.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.9cb9e296.js",
+    "static/js/2.72a730de.chunk.js",
+    "static/css/main.db776146.chunk.css",
+    "static/js/main.175ebb21.chunk.js"
+  ]
+}
