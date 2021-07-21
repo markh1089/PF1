@@ -3,6 +3,8 @@
 }
 .Project .btn {
     text-decoration: none;
+    color: black;
+    margin-right: 5px;
 }
 
 .Project .Projects {
