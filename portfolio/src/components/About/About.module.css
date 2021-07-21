@@ -1,0 +1,52 @@
+.AboutMe {
+    background-color: black;
+    padding-bottom: 5%;
+}
+
+.AboutMe .Container {
+    display: flex;    
+}
+
+.AboutMe .Container .Text {
+    width:45%;
+    margin-left: 5%;
+}
+
+.AboutMe .Container .Text h2 {
+    font-weight: 900;
+    font-size: 2.8rem;
+
+}
+.AboutMe .Container .Photo {
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+}
+
+.AboutMe .Container .Photo .Me {
+    width: 90%;
+    max-width: 500px;
+    border-radius: 10%;
+}
+
+.AboutMe .btn {
+
+        text-decoration: none;
+    }
+
+
+@media only screen and (max-width: 500px) {
+    .AboutMe .Container {
+        flex-direction: column !important;
+        align-items: center;
+    }
+
+    .AboutMe .Container .Text {
+        width: 80%;
+    }
+    .AboutMe .Container .Photo {
+        width: 70%;
+    }
+
+}
