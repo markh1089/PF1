@@ -1,6 +1,9 @@
 .Project {
     background-color: black;
 }
+.Project .btn {
+    text-decoration: none;
+}
 
 .Project .Projects {
     display: flex;
@@ -17,21 +20,25 @@
 
 .Project .ProjectContainer .Thumbnail img {
     max-width: 490px;
+    width: 100%;
 }
 
 .Project .ProjectContainer .Text {
     padding-left: 3% ;
     padding-right: 3%;
+    width:45%;
 }
 .Project .ProjectContainer .Thumbnail {
-    padding-left: 3% ;
-    padding-right: 3%;
+
+    padding: 3%;
+    width:45%;
+
 }
 .Project .ProjectContainer {
     display: flex;
     background-color: black;
     margin-bottom: 5%;
-    height: 300px;
+    height: 100%;
     align-items: center;
     border-radius: 10px;
     box-shadow: 0px 0px 5px 1px white;

@@ -17,9 +17,8 @@
     color: white;
 }
 .Home .Container .Hello {
-    font-size: 65px;
-    ;
-
+    font-size: 4rem;
+    
 }
 
 .Home .Container h1 {
@@ -29,12 +28,23 @@
     position: absolute;
     bottom: 0;
     left: 2%;    
-    height:25%;
+    width:25%;
+    max-width: 100px;
 }
 
 .Home .CodeWorld {
-    height: 70%;
+    width: 60%;
+    max-width: 500px;
     position: absolute;
     right: 10%;
     top:20%;
+    opacity: 0.3;
+    -webkit-animation:spin 50s linear infinite;
+    -moz-animation:spin 50s linear infinite;
+    animation:spin 50s linear infinite;
 }
+@-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); }
+}
+

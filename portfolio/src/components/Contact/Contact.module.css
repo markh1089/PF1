@@ -3,17 +3,21 @@
     background-repeat: no-repeat;
     background-size: cover;
     align-items: center;
-    height: 300px;
+    height: 35vh;
     display: flex;
 }
 .Contact h1 {
- margin-left: 50px;
+ padding-left: 150px;
 }
 
 .Contact .ContactIcons {
     width: 100%;
     display: flex;
     justify-content: center;
+}
+.Contact .ContactIcons div {
+    padding:10px
+
 }
 
 .Contact .ContactIcons svg path {
