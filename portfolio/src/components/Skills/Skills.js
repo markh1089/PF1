@@ -49,13 +49,7 @@ const Skills = () => {
       <PageHeader title="Skills" />
       <img className={classes.image} src={CodeDesk} alt='' />
       <p>
-        Aliquam dictum ipsum vel ante vestibulum tristique. Fusce gravida felis
-        nec sapien accumsan pharetra. Vestibulum et porta lacus, sed laoreet ex.
-        In semper a libero sed hendrerit. Praesent iaculis id ipsum eget
-        posuere. Suspendisse mattis tortor eu consectetur accumsan. Proin
-        lobortis nisi nec ligula scelerisque, ac ultricies est vestibulum.
-        Vivamus placerat, mauris ac dignissim convallis, augue diam interdum
-        metus, quis sodales libero purus et erat. Nullam nec rhoncus neque.
+
         <br />
         <br />
         <br />

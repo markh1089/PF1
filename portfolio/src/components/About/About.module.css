@@ -30,6 +30,12 @@
     border-radius: 10%;
 }
 
+.AboutMe .btn {
+
+        text-decoration: none;
+    }
+
+
 @media only screen and (max-width: 500px) {
     .AboutMe .Container {
         flex-direction: column !important;

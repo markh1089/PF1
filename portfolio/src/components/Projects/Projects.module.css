@@ -1,6 +1,9 @@
 .Project {
     background-color: black;
 }
+.Project .btn {
+    text-decoration: none;
+}
 
 .Project .Projects {
     display: flex;

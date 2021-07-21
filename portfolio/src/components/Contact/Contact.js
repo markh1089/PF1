@@ -5,6 +5,10 @@ import { motion } from "framer-motion";
 const handleURL = (url) => {
   return () => window.open(url, "_blank");
 };
+
+const sendEmail = () => {
+  window.location='mailto:markhempel89@gmail.com'
+}
 const Contact = () => {
   return (
     <div className={classes.Contact} id="contact">
@@ -43,7 +47,7 @@ const Contact = () => {
             color="white"
             size="30px"
             style={{ padding: "1%" }}
-            onClick={handleURL}
+            onClick={sendEmail}
           />
         </motion.div>
       </div>

@@ -3,7 +3,6 @@ import code from './../Images/code.svg'
 import codeWorld from './../Images/codeWorld.svg'
 import WaveLine from "./WaveLine";
 import Typist from 'react-typist';
-import { motion } from "framer-motion";
 
 
 
