@@ -22,13 +22,13 @@ const quizCode = "https://github.com/markh1089/Quiz-v.2.git";
 
 const ceaserCipherDescription =
   "Created a ceaser cipher that encrypted some text based on user variables:";
-const ceaserLink = "https://markh1089.github.io/WeatherApi/";
-const ceaserCode = "https://github.com/markh1089/WeatherApi";
+const ceaserLink = "https://markh1089.github.io/Ceaser_Cipher/";
+const ceaserCode = "https://github.com/markh1089/Ceaser_Cipher.git";
 
 const groupProjDescription =
   "Working alongside 2 other individuals to create a social media page for sharing recipes. Feel free to view our progress - unfortunately at this time there is no demo, but feel free to view the source code:";
-const groupLink = "https://markh1089.github.io/WeatherApi/";
-const groupCode = "https://github.com/markh1089/WeatherApi";
+const groupLink = "";
+const groupCode = "https://github.com/JoelPWK/cohort-jan-21";
 
 const projectThumbnail = (thumbnail, description, demo, code) => {
   return (
